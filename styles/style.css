@@ -3,24 +3,22 @@
     padding: 0;
 }
 .head-container{
-    background-color: aquamarine;
     height: 100px;
     width: 1200px;
     margin: 0 auto;
     box-sizing: border-box;
 }
 .container{
-    background-color: sandybrown;
     width: 1200px;
     height: 800px;
     margin: 0 auto;
 
 }
 .img-logo img{
-    width: 100%;
+    width: 100px;
+    height: 70px;
 }
 .img-logo{
-    background-color: darkorchid;
     width: 100px;
     height: 70px;
     margin: 10px 10px 10px 25px;
@@ -32,19 +30,16 @@
     float: left;
 }
 .nav-bar-top{
-    background-color: chartreuse;
     height: 70px;
     width: 1065px;
 }
 .nav-bar-bottom{
-
     height: 30px;
     width: 1065px;
     border-top:1px solid #000;
     border-bottom:1px solid #000;
 }
 .website-title{
-    background-color: saddlebrown;
     height: 100%;
     width: 800px;
     font-size: 20px;
@@ -60,7 +55,6 @@
     border-radius: 10px;
 }
 .contact-us-div{
-    background-color: cadetblue;
     width: 235px;
     height: 70px;
     float: left;
@@ -81,7 +75,7 @@
     display: inline-block;
     margin-left: 35px;
     margin-top:5px;
-    padding:0 60px;
+    padding:0 50px;
     font-size: 20px;
     border-right: 1px solid #000;
     line-height: 20px;
@@ -96,4 +90,142 @@
 .li-nav:hover{
     font-weight: bold;
     cursor: pointer;
+}
+.container-top{
+    height: 480px;
+    width: 1200px;
+}
+.rotating-image{
+    height: 480px;
+    width: 60%;
+    margin-top: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+.img-rotating{
+    height: 430px;
+    border:5px solid #000;
+
+}
+.change-image{
+    text-align: center;
+    margin:0 auto;
+    padding: 15px 0;
+}
+.next-image a{
+    border-radius: 10px;
+    border:2px solid #000;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    float: left;
+}
+.next-image a:first-child{
+    margin-right: 10px;
+}
+.img-rotating img{
+    width: 100%;
+    height: 100%;
+}
+.rotate-btns{
+    height: 41px;
+    width: 711px;
+    text-align: center;
+    display: inline-block;
+    padding: 5px 250px 5px 250px;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+.specials{
+    float: left;
+    width: 200px;
+    height: 426px;
+    margin-left: 15px;
+    margin-top: 10px;
+    border: 5px solid #000000;
+    overflow-y: auto;
+    float: left;
+}
+.specials div{
+    font-size: 18px;
+    overflow-y: auto;
+}
+.specials h3{
+    font-size: 20px;
+    text-align: center;
+}
+.specials div:hover{
+    background-color: #ccc
+}
+.info{
+    height: 434px;
+    width: 225px;
+    float: left;
+    margin: 10px 10px 10px 20px;
+
+}
+.plate-img{
+    width: 100%;
+    height: 30%;
+}
+.plate-img img{
+    width: 100%;
+    height: 100%;
+}
+.plate-txt{
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 18px;
+    height: 20px;
+}
+.make-a-reservation{
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+.make-a-reservation a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    box-shadow: #444 -3px 3px;
+}
+.null{
+    width: 100%;
+    height: 85px;
+}
+.clock-img{
+    float: left;
+    background-color: #444444;
+    width: 50%;
+    height: 149px;
+}
+.clock-img img{
+    height: 100%;
+    width: 100%;
+}
+.hour-list{
+    float: left;
+}
+.hour-list ul li{
+    list-style-position: inside;
+    list-style-type: none;
+    font-size: 18px;
+    font-family: Tahoma;
+    padding: 10px 5px 5px 10px;
+    box-sizing: border-box;
+}
+.hour-list ul li:first-child{
+    font-weight: bold;
+}
+.container-bottom{
+    background-color: crimson;
+    height: 40%;
+    width: 1200px;
+    margin: 10px 0;
 }
