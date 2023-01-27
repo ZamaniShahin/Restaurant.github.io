@@ -20,13 +20,53 @@
 }
 .img-logo{
     background-color: darkorchid;
-    width: 80px;
+    width: 100px;
     height: 70px;
     margin: 10px 10px 10px 25px;
     float: left;
 }
-nav-bar{
+.nav-bar{
     background-color: chocolate;
-    height: 120px;
-    float: left;    
+    width: 1065px;
+    height: 100px;
+    float: left;
+}
+.nav-bar-top{
+    background-color: chartreuse;
+    height: 70px;
+    width: 1065px;
+}
+.nav-bar-bottom{
+    background-color: deeppink;
+    height: 30px;
+    width: 1065px;
+}
+.website-title{
+    background-color: saddlebrown;
+    height: 100%;
+    width: 800px;
+    font-size: 20px;
+    font-family: Tahoma;
+    line-height:3;
+    padding-left: 30px;
+    float: left;
+}
+.contact-us-btn{
+    float: left;
+    padding: 13px 20px 5px 25px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+.contact-us-div{
+    background-color: cadetblue;
+    width: 235px;
+    height: 70px;
+    float: left;
+}
+.contact-us-btn:link{
+    margin: 10px 50px;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
+
 }
