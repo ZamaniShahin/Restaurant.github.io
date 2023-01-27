@@ -7,6 +7,7 @@
     height: 100px;
     width: 1200px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 .container{
     background-color: sandybrown;
@@ -26,7 +27,6 @@
     float: left;
 }
 .nav-bar{
-    background-color: chocolate;
     width: 1065px;
     height: 100px;
     float: left;
@@ -37,9 +37,11 @@
     width: 1065px;
 }
 .nav-bar-bottom{
-    background-color: deeppink;
+
     height: 30px;
     width: 1065px;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
 }
 .website-title{
     background-color: saddlebrown;
@@ -69,4 +71,29 @@
     color: black;
     padding-bottom: 10px;
 
+}
+.nav-list{
+    list-style-position: inside;
+    list-style-type: none;
+    display: inline-block;
+}
+.li-nav{
+    display: inline-block;
+    margin-left: 35px;
+    margin-top:5px;
+    padding:0 60px;
+    font-size: 20px;
+    border-right: 1px solid #000;
+    line-height: 20px;
+    border-left: 1px solid #000;
+}
+.li-nav:last-child{
+    border-right: none;
+}
+.li-nav:first-child{
+    border-left: none;
+}
+.li-nav:hover{
+    font-weight: bold;
+    cursor: pointer;
 }
