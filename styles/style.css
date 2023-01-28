@@ -142,12 +142,14 @@
 .specials{
     float: left;
     width: 200px;
-    height: 426px;
+    height: 439px;
     margin-left: 15px;
     margin-top: 10px;
     border: 5px solid #000000;
     overflow-y: auto;
     float: left;
+    padding: 10px;
+    box-sizing: border-box;
 }
 .specials div{
     font-size: 18px;
@@ -224,8 +226,52 @@
     font-weight: bold;
 }
 .container-bottom{
-    background-color: crimson;
     height: 40%;
     width: 1200px;
     margin: 10px 0;
+    padding-bottom: 10px;
+}
+.order{
+    width: 383px;
+    float: left;
+    height: 319px;
+    padding-right: 25px;
+}
+.order:last-child{
+    padding-right: 0;
+}
+.img-order-div{
+    background-color: #444444;
+    height:70%;
+}
+.img-order{
+    height: 100%;
+    width: 100%;
+    border: 5px solid #000;
+    box-sizing: border-box;
+}
+.order-title{
+    height: 30px;
+    line-height: 30px;
+}
+.order-title h3{
+    font-family: Tahoma;
+    font-size: 18px;
+}
+.order-description{
+    overflow-y: auto;
+    width: 100%;
+    height: 67px;
+}
+.order-description p{
+    overflow-y: auto;
+    font-family: Tahoma;
+
+}
+.footer-container{
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: tomato;
+    width: 1200px;
+    height: 400px;
 }
