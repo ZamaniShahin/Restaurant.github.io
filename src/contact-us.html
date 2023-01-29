@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="../styles/contact-us.css">
+
+    </head>
+    <body>
+        <div class="form">
+            <div class="form-title">
+                <h3>Contact Us</h3>
+                <p>
+                    Please fill this form in a decent manner.
+                </p>
+            </div>
+            <div class="form-body">
+                <form action="submitted.html" method="post">
+                    <fieldset>
+                        <label for="full-name" class="full-name">Full Name:</label>
+                        <input type="text" id="full-name" name="full-name" required>
+                        <label for="email" class="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="message">Message:</span>
+                        <textarea id="message"required></textarea>
+                        <div class="btn-div">
+                            <input type="submit" class="btn submit" value="SUBMIT">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
