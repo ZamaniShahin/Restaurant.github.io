@@ -2,6 +2,10 @@
     margin:0;
     padding: 0;
 }
+* a{
+    text-decoration: none;
+    color: black;
+}
 .head-container{
     height: 100px;
     width: 1200px;
@@ -53,6 +57,13 @@
     padding: 13px 20px 5px 25px;
     border: 2px solid #000;
     border-radius: 10px;
+    box-shadow: #444 -3px 3px;
+}
+.contact-us-btn:visited{
+    color: black;
+}
+.contact-us-btn:hover{
+    font-weight: bold;
 }
 .contact-us-div{
     width: 235px;
@@ -121,6 +132,12 @@
     box-sizing: border-box;
     float: left;
 }
+.next-image a:hover{
+    font-weight: bold;
+}
+.next-image a:visited{
+    color: black;
+}
 .next-image a:first-child{
     margin-right: 10px;
 }
@@ -187,6 +204,10 @@
     text-align: center;
     height: 50px;
     line-height: 50px;
+
+}
+.make-a-reservation:hover{
+    font-weight: bold;
 }
 .make-a-reservation a{
     text-decoration: none;
@@ -241,7 +262,6 @@
     padding-right: 0;
 }
 .img-order-div{
-    background-color: #444444;
     height:70%;
 }
 .img-order{
@@ -270,8 +290,65 @@
 }
 .footer-container{
     margin: 0 auto;
-    margin-top: 10px;
-    background-color: tomato;
+    margin-top: 20px;
     width: 1200px;
-    height: 400px;
+    border-top: 2px solid #444;
+}
+.footer-title{
+    float: left;
+    height: 100%;
+    width: 400px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.footer-title h5{
+    text-align: center;
+    font-size: 18px;
+    font-family: Tahoma;
+
+}
+.footer-container ul li{
+    margin-left: 10px;
+    margin-top:5px;
+    padding:10px 20px;
+    font-size: 18px;
+    line-height:10px;
+}
+.footer-container ul li:first-child{
+    padding-left: 10px;
+
+}
+.nav-bottom{
+    float: left;
+    width: 600px;
+    height: 100%;
+}
+.social-media a{
+    float: left;
+}
+.social-media{
+    height: 100%;
+    width: 100%;
+}
+.twitter{
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 10px;
+    padding-right: 10px;
+}
+.twitter a img{
+    width: 30px;
+    height: 30px;
+}
+.facebook{
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin: 10px;
+    padding-right: 10px;
+}
+.facebook img{
+    width: 30px;
+    height: 30px;
 }
