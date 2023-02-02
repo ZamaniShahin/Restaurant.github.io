@@ -12,11 +12,10 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
-.container{
+.cont{
     width: 1200px;
     height: 800px;
     margin: 0 auto;
-
 }
 .img-logo img{
     width: 100px;
