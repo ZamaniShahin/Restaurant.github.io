@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
+
     <link rel="stylesheet" href="styles/style.css" type="text/css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -13,11 +15,12 @@
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+
 </head>
 <header class="header">
     <div class="head-container">
         <div class="img-logo">
-            <img src="../imgs/snapsvg-seeklogo.com.svg" alt="logo">
+            <img src="imgs/snapsvg-seeklogo.com.svg" alt="logo">
         </div>
         <div class="nav-bar">
             <div class="nav-bar-top">
@@ -29,14 +32,136 @@
                 </div>
             </div>
             <div class="nav-bar-bottom">
-                <ul class="nav-list">
-                    <li class="li-nav"><a href="#">Home</a></li>
-                    <li class="li-nav"><a href="#">About Us</a></li>
-                    <li class="li-nav"><a href="#">Menu</a></li>
-                    <li class="li-nav">
-                        <a href="#"></a>Locations</li>
-                    <li class="li-nav"><a href="#">Paintings</a></li>
-                </ul>
+                <nav id="main-nav">
+
+                    <ul id="main-menu" class="sm sm-blue">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a>
+                            <ul>
+                                <li><a href="#">The author</a></li>
+                                <li><a href="#">The company</a>
+                                    <ul>
+                                        <li><a href="#">About Vadikom</a></li>
+                                        <li><a href="#">Projects</a></li>
+                                        <li><a href="#">Services</a></li>
+                                        <li><a href="#">Privacy policy</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Menu</a>
+                            <ul>
+                                <li><a href="#">Premium support</a></li>
+                                <li><a href="#">Forums</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Locations</a>
+                            <ul>
+                                <li><a href="#">item 1</a></li>
+                                <li><a href="#">item 2</a></li>
+                                <li><a href="#" class="disabled">Disabled menu item</a></li>
+                                <li><a href="#">Dummy item</a></li>
+                                <li><a href="#">more...</a>
+                                    <ul style="color: #000000 !important;">
+                                        <li><a href="#">A pretty long text to test the default subMenusMaxWidth:20em setting for the sub menus</a></li>
+                                        <li><a href="#">item 1</a></li>
+                                        <li><a href="#">item 2</a></li>
+                                        <li><a href="#">item 3</a></li>
+                                        <li><a href="#">item 4</a></li>
+                                        <li><a href="#">item 5</a></li>
+                                        <li><a href="#">more...</a>
+                                            <ul>
+                                                <li><a href="#">item 1</a></li>
+                                                <li><a href="#" class="current">A 'current' class item</a></li>
+                                                <li><a href="#">item 2</a></li>
+                                                <li><a href="#">more...</a>
+                                                    <ul>
+                                                        <li><a href="#">subMenusMinWidth</a></li>
+                                                        <li><a href="#">10em</a></li>
+                                                        <li><a href="#">forced.</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Dummy item</a></li>
+                                                <li><a href="#">Dummy item</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">A pretty long text to test the default subMenusMaxWidth:20em setting for the sub menus</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">A pretty long text to test the default subMenusMaxWidth:20em setting for the sub menus</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">A pretty long text to test the default subMenusMaxWidth:20em setting for the sub menus</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">A pretty long text to test the default subMenusMaxWidth:20em setting for the sub menus</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">A pretty long text to test the default subMenusMaxWidth:20em setting for the sub menus</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                        <li><a href="#">Dummy item</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Paintings</a>
+                            <ul class="mega-menu">
+                                <li>
+
+                                    <div style="width:800px;max-width:100%;">
+                                        <div style="padding:5px 24px;">
+                                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto assumenda consequatur dicta dignissimos ex, impedit neque, non odit, officiis quae qui sit temporibus? Consectetur cumque nam repudiandae temporibus veniam!</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </div>
