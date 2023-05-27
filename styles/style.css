@@ -102,29 +102,7 @@
     display: inline-block;
 }
 
-.li-nav {
-    display: inline-block;
-    margin-left: 35px;
-    margin-top: 5px;
-    padding: 0 50px;
-    font-size: 20px;
-    border-right: 1px solid #000;
-    line-height: 20px;
-    border-left: 1px solid #000;
-}
 
-.li-nav:last-child {
-    border-right: none;
-}
-
-.li-nav:first-child {
-    border-left: none;
-}
-
-.li-nav:hover {
-    font-weight: bold;
-    cursor: pointer;
-}
 
 .container-top {
     display: inline;
@@ -431,6 +409,9 @@ nav ul ul {
 
 nav ul li:hover>ul {
     display: block;
+    top:  5px;
+    left: 50px;
+    width: 500px;
 }
 
 nav ul {
@@ -461,7 +442,7 @@ nav ul li:hover {
 }
 
 nav ul li:hover a {
-    color: #fff;
+    color: #000;
 }
 
 nav ul li a {
@@ -470,7 +451,7 @@ nav ul li a {
     text-decoration: none;
 }
 
-av ul ul {
+a ul ul {
     background: #9c0000;
     border-radius: 0px;
     padding: 0;
@@ -493,8 +474,11 @@ nav ul ul li a {
 }
 
 nav ul ul li a:hover {
-    background: #112f44;
-}
+    padding: 1px;
+    color: #000 !important;
+    background-color: #F1F4F7 !important;
+  }
+
 
 nav ul ul ul {
     position: absolute;
@@ -504,8 +488,26 @@ nav ul ul ul {
 #carouselExampleIndicators{
     z-index: -1;
 }
+.li-nav {
+    display: inline-block;
+    margin-left: 35px;
+    margin-top: 5px;
+    padding: 0 50px;
+    font-size: 20px;
+    border-right: 1px solid #000;
+    line-height: 20px;
+    border-left: 1px solid #000;
+}
 
-.ltrNav{
-    margin-left: 0px;
-    padding-left: 0px;
+.li-nav:last-child {
+    border-right: none;
+}
+
+.li-nav:first-child {
+    border-left: none;
+}
+
+.li-nav:hover {
+    font-weight: bold;
+    cursor: pointer;
 }
