@@ -504,3 +504,8 @@ nav ul ul ul {
 #carouselExampleIndicators{
     z-index: -1;
 }
+
+.ltrNav{
+    margin-left: 0px;
+    padding-left: 0px;
+}
